@@ -1,5 +1,5 @@
 combolite-manifest-v1
-version=fab-Y2-150-gaa8ac16
-app=eee289368e58906a5da0f4af57dcd3a128f81ae8358f01648efa212a80da1d14 1141296 https://github.com/ekundo/combolite-firmware/releases/download/v1.4/combolite.bin
-www=f11dd4203a278a8b09adf8ca186b7d1c36427ec318474ee5b0963031e7393c02 851968 https://github.com/ekundo/combolite-firmware/releases/download/v1.4/www.bin
-sig=3045022100aff9fdb2dccec4434e5b9d31623619bfd875f5a5d879f6ad25bb3d7ff7f8fe6a02202607e49c05695c7c74198d2f8d7626a51c43cc2ae197c13950838b21bf41f6fb
+version=fab-Y2-151-g4e2ced0
+app=3b7fe9436af9f0a21b439365d74c2e1bcce7cf790cd8735db3c5d01297123820 1141296 https://github.com/ekundo/combolite-firmware/releases/download/v1.5/combolite.bin
+www=97b2e1cd556db65ebec206f2b0c5c39c9c6c483f0f3d90ed380312fb544e299e 851968 https://github.com/ekundo/combolite-firmware/releases/download/v1.5/www.bin
+sig=3045022100c426609f5ef3db91e0673a00df9101edcbe4ace36818ef5129f82e777d1c12cf02206efc0b0b96c7c773f1dbabcb9c664e13744b96b96a02abc6077b016a2fe77686
