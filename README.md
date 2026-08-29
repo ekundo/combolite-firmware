@@ -16,9 +16,13 @@ Vector-06C computer. Sources live in a separate repository.
 ## Checking a release by hand
 
     curl -sO https://raw.githubusercontent.com/ekundo/combolite-firmware/main/manifest.txt
-    head -n -1 manifest.txt > signed.txt
+    sed '$d' manifest.txt > signed.txt          # everything but the sig= line
     tail -n 1 manifest.txt | cut -d= -f2 | xxd -r -p > sig.der
     openssl dgst -sha256 -verify pubkey.pem -signature sig.der signed.txt
+
+The signature covers the file up to, but not including, the `sig=` line. Note
+`sed` rather than `head -n -1`: the latter is a GNU extension and fails on
+macOS and the BSDs — as it did the first time this was written down.
 
 ## How a board uses it
 
